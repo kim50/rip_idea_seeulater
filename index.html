@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Nanum+Myeongjo" rel="stylesheet">
+	<style>
+	body {background: black;}
+	h1 {font-family: 'Alfa Slab One', cursive;
+		color: white;
+		text-align: center;
+		margin-bottom: 10px;
+		font-size: 70px;}
+
+	#frame {width: 350px;
+			margin: auto;
+			display: block;}
+
+	#idea {width: 200px;
+			position: absolute;
+			left: 620px;
+			top: 350px;}
+
+	#bomb {width: 200px;
+			position: absolute;
+			left: 620px;
+			top: 330px;}
+
+	#text {color: white;
+			position: absolute;
+			top: 30px;}
+
+	#text2 {color: white;
+			position: absolute;
+			top: 230px;
+			right: 40px;
+			font-size: 20px;}
+
+	#text3 {color: white;
+			position: absolute;
+			top: 260px;
+			right: 10px;
+			font-size: 25px;}	
+
+	#text4 {color: white;
+			position: absolute;
+			top: 300px;
+			right: 10px;
+			font-size: 30px;}	
+
+	#text5 {color: white;
+			position: absolute;
+			top: 300px;
+			left: 10px;
+			font-size: 20px;}
+
+	#text6 {color: white;
+			position: absolute;
+			top: 330px;
+			left: 10px;
+			font-size: 30px;}
+
+	#text7 {color: white;
+			position: absolute;
+			top: 370px;
+			left: 10px;
+			font-size: 25px;}
+
+	#text8 {color: white;
+			position: absolute;
+			top: 480px;
+			left: 10px;
+			font-size: 20px;}	
+
+	#star {width: 500px;
+			height: 300px;
+			position: absolute;
+			top: 100px;
+			opacity: 0.3;}
+
+	#star2 {width: 500px;
+			height: 300px;
+			position: absolute;
+			top: 350px;
+			right: 30px;
+			opacity: 0.3;}
+
+	</style>
+</head>
+<body>
+	<h1>R . I . P</h1>
+	<img src="star.gif" id="star">
+	<img src="star.gif" id="star2">
+	<img src="idea.gif" id="idea">
+	<img src="bomb.gif" id="bomb">
+	<img src="frame.png" id="frame">
+	<div id="text"></div>
+	<div id="text2"></div>
+	<div id="text3"></div>
+	<div id="text4"></div>
+	<div id="text5"></div>
+	<div id="text6"></div>
+	<div id="text7"></div>
+	<div id="text8"></div>
+		<script type="text/javascript">
+		var i=0,text;
+			text = "이 곳은 너무 많은 과목에 너무 많은 아이디어를 쏟아 부어 터져버려 한 줌에 재가 되어버린 저의 나약한 뇌를 추모하는 공간입니다 . . ."
+
+		function typing() {
+			if(i<text.length){
+				document.getElementById("text").innerHTML += text.charAt(i);
+				i++;
+				setTimeout(typing,70);
+			}
+		}
+		typing();
+
+
+		var k=0,text2;
+		text2 = "고마웠어 . . . 내 뇌야 . . . 다음생엔 꼭 . . ."
+
+		function typing2() {
+			if(k<text2.length){
+				document.getElementById("text2").innerHTML += text2.charAt(k);
+				k++;
+				setTimeout(typing2,100);
+			}
+		}
+		typing2();
+
+		var p=0,text3;
+		text3 = "나 말고 . . 똑똑한 주인 만나서 . . . "
+
+		function typing3() {
+			if(p<text3.length){
+				document.getElementById("text3").innerHTML += text3.charAt(p);
+				p++;
+				setTimeout(typing3,130);
+			}
+		}
+		typing3();
+
+		var s=0,text4;
+		text4 = "행복 하렴 . . ."
+
+		function typing4() {
+			if(s<text4.length){
+				document.getElementById("text4").innerHTML += text4.charAt(s);
+				s++;
+				setTimeout(typing4,200);
+			}
+		}
+		typing4();
+
+		var r=0,text5;
+		text5 = "나는 너와 함께 한 순간들 모두 다 기억해 . . ."
+
+		function typing5() {
+			if(r<text5.length){
+				document.getElementById("text5").innerHTML += text5.charAt(r);
+				r++;
+				setTimeout(typing5,100);
+			}
+		}
+		typing5();
+
+		var d=0,text6;
+
+		text6 = "시간을 되돌린다면 . .."
+
+		function typing6() {
+			if(d<text6.length){
+				document.getElementById("text6").innerHTML += text6.charAt(d);
+				d++;
+				setTimeout(typing6,120);
+			}
+		}
+		typing6();
+
+
+		var a=0,text7;
+
+		text7 = "자바스크립트를 배우기 전으로 돌아간다면 . . ."
+
+		function typing7() {
+			if(a<text7.length){
+				document.getElementById("text7").innerHTML += text7.charAt(a);
+				a++;
+				setTimeout(typing7,160);
+			}
+		}
+		typing7();
+
+
+		var w=0,text8;
+
+		text8 = "널 다시 볼 수 있을까 ? . . . "
+
+		function typing8() {
+			if(w<text8.length){
+				document.getElementById("text8").innerHTML += text8.charAt(w);
+				w++;
+				setTimeout(typing8,180);
+			}
+		}
+		typing8();
+
+	</script>
+</body>
+</html>
